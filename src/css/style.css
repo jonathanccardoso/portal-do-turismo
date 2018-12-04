@@ -5,24 +5,46 @@
 
 body{
 	/*color teste*/
-	background-color: gray;
+	background-color: #FBF9DF;
 	color: white !important;
+	/*font*/
+
+	overflow-x: hidden;
+}
+
+header{
+	background-color: white;
+}
+
+.left {
+	left: 19em;
+}
+
+img.acess {
+    width: 2em;
+}
+
+/*carroussel e figures*/
+img {
+	border-radius: 2em;
+}
+img.figure-img.img-fluid {
+	border-radius: 2em;
 }
 
 /*perquisa*/
 input[type=text] {
-	color: blue;
-    width: 130px;
+	color: #0082ff;
+    width: 25em;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #0082ff;
+    border-radius: 5em;
     font-size: 16px;
     background-color: white;
     background-image: url('searchicon.png');/*por img de pesquisa ou icone e reposicionar*/
-    /*background-position: 10px 10px; */
+    /*background-position: 10px 10px;*/
     background-repeat: no-repeat;
-    /*padding: 12px 20px 12px 40px;*/
-    padding: 10px;
+    padding: 12px 10px 12px 25px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -49,7 +71,8 @@ nav ol li a {
 
 /*figures*/
 figcaption{
-	top: 109px;
+	top: 8em;
+	left: 2em;
     position: absolute;
     color: white !important;
 }
