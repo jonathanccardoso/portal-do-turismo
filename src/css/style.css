@@ -3,6 +3,57 @@
 	padding: 0;
 }
 
+body{
+	/*color teste*/
+	background-color: gray;
+	color: white !important;
+}
+
+/*perquisa*/
+input[type=text] {
+	color: blue;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');/*por img de pesquisa ou icone e reposicionar*/
+    /*background-position: 10px 10px; */
+    background-repeat: no-repeat;
+    /*padding: 12px 20px 12px 40px;*/
+    padding: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/*migalhas de pão*/
+li, a{
+	float: left;
+	color: black;
+}
+ol{
+	list-style-type:none;
+}
+nav ol li a {
+	float: left;
+	list-style-type:none;
+	padding: 0px 3px !important;
+    display: inline-block !important;
+    /*visual do link*/
+    text-decoration: none !important;
+}
+
+/*carroussel*/
+
+
+/*figures*/
+figcaption{
+	top: 109px;
+    position: absolute;
+    color: white !important;
+}
+/*footer*/
 footer{
 	background-color: white;
 }
