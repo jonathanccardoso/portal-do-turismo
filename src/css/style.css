@@ -6,9 +6,6 @@
 body{
 	/*color teste*/
 	background-color: #FBF9DF;
-	color: white !important;
-	/*font*/
-
 	overflow-x: hidden;
 }
 
@@ -66,9 +63,6 @@ nav ol li a {
     text-decoration: none !important;
 }
 
-/*carroussel*/
-
-
 /*figures*/
 figcaption{
 	top: 8em;
@@ -76,6 +70,7 @@ figcaption{
     position: absolute;
     color: white !important;
 }
+
 /*footer*/
 footer{
 	background-color: white;
@@ -85,4 +80,24 @@ address{
 	position: absolute;
 	top: 30px;
 	left: 10em;
+}
+p {
+	color: #0082ff;
+}
+footer p{
+	font-size: 14px;
+}
+footer img{
+	max-width: 350px;
+    max-height: 200px;
+    padding: 1.5em;
+}
+
+/*pages*/
+.atracao p{
+	color: black;
+}
+#aside img{
+	max-width: 80px;
+    max-height: 80px;
 }
