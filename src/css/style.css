@@ -38,8 +38,8 @@ input[type=text] {
     border-radius: 5em;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');/*por img de pesquisa ou icone e reposicionar*/
-    /*background-position: 10px 10px;*/
+    background-image: url('../images/searchicon.png');/*por img de pesquisa ou icone e reposicionar*/
+    background-position: 350px 13px;
     background-repeat: no-repeat;
     padding: 12px 10px 12px 25px;
     -webkit-transition: width 0.4s ease-in-out;
