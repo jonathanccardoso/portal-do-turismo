@@ -65,8 +65,8 @@ nav ol li a {
 
 /*figures*/
 figcaption{
-	top: 8em;
-	left: 2em;
+	top: 11em;
+    left: 4em;
     position: absolute;
     color: white !important;
 }
