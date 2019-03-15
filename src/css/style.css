@@ -31,15 +31,15 @@ img.figure-img.img-fluid {
 
 /*perquisa*/
 input[type=text] {
-	color: #0082ff;
-    width: 25em;
+    color: #0082ff;
+    width: 19em;
     box-sizing: border-box;
     border: 2px solid #0082ff;
     border-radius: 5em;
     font-size: 16px;
     background-color: white;
-    background-image: url('../images/searchicon.png');/*por img de pesquisa ou icone e reposicionar*/
-    background-position: 350px 13px;
+    background-image: url(../images/searchicon.png);
+    background-position: 253px 14px;
     background-repeat: no-repeat;
     padding: 12px 10px 12px 25px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -64,11 +64,23 @@ nav ol li a {
 }
 
 /*figures*/
-figcaption{
-	top: 11em;
-    left: 4em;
+figure{
+	overflow: hidden;
+    cursor: pointer;
+    background: transparent;
+}
+
+figcaption{    
+	font-size: 1em !important;
+    top: 37%;
+    text-transform: uppercase;
+    left: 2em;
     position: absolute;
     color: white !important;
+    text-decoration: none;
+}
+figure:hover {
+	/*background: rgba(0,0,0,0.3);*/
 }
 
 /*footer*/
@@ -100,4 +112,11 @@ footer img{
 #aside img{
 	max-width: 80px;
     max-height: 80px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	figcaption{
+		font-size: 23px !important;
+	}
 }
