@@ -60,7 +60,8 @@ nav ol li a {
 	padding: 0px 3px !important;
     display: inline-block !important;
     /*visual do link*/
-    text-decoration: none !important;
+    /*text-decoration: none !important;*/
+    text-decoration: underline !important;
 }
 
 /*figures*/
@@ -72,7 +73,7 @@ figure{
 
 figcaption{    
 	font-size: 1em !important;
-    top: 37%;
+    top: 43%;
     text-transform: uppercase;
     left: 2em;
     position: absolute;
@@ -112,6 +113,16 @@ footer img{
 #aside img{
 	max-width: 80px;
     max-height: 80px;
+}
+
+i.fas.fa-2x.social {
+    color: #065385;
+    margin-bottom: 0.5em;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 98%!important;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
