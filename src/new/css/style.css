@@ -74,10 +74,10 @@ figure{
 }
 
 figcaption{    
-	font-size: 1em !important;
+    font-size: 18px !important;
     top: 43%;
     text-transform: uppercase;
-    left: 2em;
+    left: 3em;
     position: absolute;
     color: white !important;
     text-decoration: none;
@@ -86,6 +86,9 @@ figcaption{
 .col-md-3{
 /*figure.figure img :hover*/
 	/*background-color: red;*/
+}
+.col-md-3 a{
+    width:15em;
 }
 
 /*footer*/
@@ -127,12 +130,16 @@ i.fas.fa-2x.social {
 
 .w-100 {
     width: 100%!important;
-    height: 98%!important;
+    height: 97%!important;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	figcaption{
-		font-size: 23px !important;
-	}
+        font-size: 18px !important;
+        left: 6em;
+    }
+    .col-md-3 a {
+        width: 23em;
+    }
 }
