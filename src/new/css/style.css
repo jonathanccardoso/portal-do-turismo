@@ -4,9 +4,8 @@
 }
 
 body{
-	/*color teste*/
     /*background-color: #FBF9DF;*/
-    background-color: #517da9;
+    background-color: #5a87b3;
 	overflow-x: hidden;
 }
 
@@ -74,10 +73,10 @@ figure{
 }
 
 figcaption{    
-    font-size: 18px !important;
-    top: 43%;
+    font-size: 17px !important;
+    top: 75%;
     text-transform: uppercase;
-    left: 3em;
+    left: 53px;
     position: absolute;
     color: white !important;
     text-decoration: none;
@@ -102,7 +101,7 @@ address{
 	left: 10em;
 }
 p {
-	color: #0082ff;
+	color: #065385;
 }
 footer p{
 	font-size: 14px;
@@ -136,8 +135,8 @@ i.fas.fa-2x.social {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	figcaption{
-        font-size: 18px !important;
-        left: 6em;
+        font-size: 17px !important;
+        left: 30%;
     }
     .col-md-3 a {
         width: 23em;
