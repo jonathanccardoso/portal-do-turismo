@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -64,23 +64,70 @@ nav ol li a {
     /*text-decoration: none !important;*/
     text-decoration: underline !important;
 }
+h2 {
+    text-shadow: 2px 2px black;
+}
+.efeitoMouse {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
 
 /*figures*/
-figure{
+.figure01 figure{
 	overflow: hidden;
     cursor: pointer;
-    background: transparent;
+    /*background: transparent;*/
+    position: relative;
 }
 
-figcaption{    
+.figure01 figcaption{    
     font-size: 17px !important;
-    top: 75%;
+    top: 0px;
     text-transform: uppercase;
-    left: 53px;
     position: absolute;
+    text-decoration: none;
+    position: absolute;
+    width: 64.5%;
+    background-color: rgba(0,0,0,.6);
+    height: 89%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    left: 43px;
+}
+.figure01 figcaption p {
+    text-align: center;
+    padding: 3em;
+    margin-top: 5em;
+    color: white !important;
+}
+.figure01:hover figcaption {
+    opacity: 0;
+}
+
+figure.figure {
+    position: relative;
+}
+figure.figure figcaption {
+    position: absolute;
+    left: auto;
+    top: 0px;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 96%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
     color: white !important;
     text-decoration: none;
+    font-size: 17px !important;
 }
+figure.figure:hover figcaption {
+    opacity: 0;
+ }
 
 .col-md-3{
 /*figure.figure img :hover*/
