@@ -1,3 +1,3 @@
 # Portal do Turismo
 
-<!-- https://drive.google.com/drive/folders/1DIH42cE4BtwgP-VGYNPmfrJOc3kTEk1L?usp=sharing -->
+> Trabalho acadêmico para criação do protótipo de turismo de natal.
