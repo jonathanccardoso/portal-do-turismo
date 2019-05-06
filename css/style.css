@@ -179,6 +179,11 @@ i.fas.fa-2x.social {
     height: 97%!important;
 }
 
+img.d-block {
+    width: 68em !important;
+    height: 37em !important;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	figcaption{
@@ -187,5 +192,10 @@ i.fas.fa-2x.social {
     }
     .col-md-3 a {
         width: 23em;
+    }
+    img.d-block {
+        width: 0;
+        height: 0;
+        border-radius: initial;
     }
 }
