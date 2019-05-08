@@ -65,7 +65,8 @@ nav ol li a {
     text-decoration: underline !important;
 }
 h2 {
-    text-shadow: 2px 2px black;
+    /*text-shadow: 2px 2px black;*/
+    color: white;
 }
 .efeitoMouse {
     background-color: black;
