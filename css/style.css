@@ -140,7 +140,12 @@ figure.figure:hover figcaption {
 
 /*footer*/
 footer{
-	background-color: white;
+    background-color: white;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 address{
 	display: flex;
