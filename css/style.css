@@ -5,7 +5,8 @@
 
 body{
     /*background-color: #FBF9DF;*/
-    background-color: #5a87b3;
+    /*background-color: #5a87b3;*/
+    background-color: white;
 	overflow-x: hidden;
 }
 
@@ -50,7 +51,7 @@ input[type=text] {
 li, a{
 	float: left;
     /*color: black;*/
-    color: white;
+    color: black;
 }
 ol{
 	list-style-type:none;
@@ -149,7 +150,7 @@ address{
 	left: 10em;
 }
 p {
-	color: #065385;
+	color: black;
 }
 footer p{
 	font-size: 14px;
@@ -200,6 +201,10 @@ img.d-block {
         border-radius: initial;
     }
 }
-p.interna{
+ p.interna{
     text-align: justify;
+    color: black;
+}
+a {
+    color: black;
 }
