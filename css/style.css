@@ -146,7 +146,8 @@ footer{
 .footer {
     position:absolute;
     /*bottom:0;*/
-    bottom:-5em;
+    /*bottom:-5em;*/
+    bottom:1em;
     width:100%;
 }
 address{
