@@ -10,8 +10,14 @@ body{
 	overflow-x: hidden;
 }
 
-header{
-	background-color: white;
+header {
+	background-color: #8fbcff;
+}
+.container-fluid {
+    background-color: #8fbcff !important;
+}
+.col-md-2 {
+    visibility: hidden;
 }
 
 .left {
@@ -141,13 +147,13 @@ figure.figure:hover figcaption {
 
 /*footer*/
 footer{
-    background-color: white;
+    background-color: #8fbcff;
 }
 .footer {
     position:absolute;
     /*bottom:0;*/
     /*bottom:-5em;*/
-    bottom:1em;
+    bottom:-4em;
     width:100%;
 }
 address{
